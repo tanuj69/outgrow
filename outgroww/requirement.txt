@@ -1,4 +1,0 @@
-express 
-pg 
-sequelize 
-dotenv
