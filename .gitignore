@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+outgrow-fe/node_modules
+outgrow-fe/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+outgrow-fe/coverage
+
+# next.js
+outgrow-fe/.next/
+outgrow-fe/out/
+
+# production
+outgrow-fe/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+outgrow-fe/.env*.local
+
+# vercel
+outgrow-fe/.vercel
+
+# typescript
+outgrow-fe/*.tsbuildinfo
+outgrow-fe/next-env.d.ts
